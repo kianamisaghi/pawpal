@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+h1 {
+    font-style: italic;
+    color: white;
+    margin: 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 55%;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: grey;
+}
+
+.main-content {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+}
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.book-now-btn {
+    display: inline-block;
+    width: 450px;
+    background-color: #a3d062;
+    color: white;
+    font-size: 30px;
+    padding: 40px 60px;
+    text-decoration: none;
+    border-radius: 45px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.rectangle-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 10px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+#box1 {
+    background-image: url('box1.jpg');
+}
+
+#box2 {
+    background-image: url('box2.jpg');
+}
+
+#box3 {
+    background-image: url('box3.jpg');
+}
+
+#box4 {
+    background-image: url('box4.jpg');
+}
+
+.box-title {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    height: 30px;
+    padding: 30px;
+    font-size: 10px;
+    color: #333; 
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}

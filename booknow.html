@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawPal - Dog Walker Booking</title>
+    <link rel="stylesheet" href="booknow.css">
+    <script src="booknow.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Book your dog's walk now!</h2>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="time-group">
+                <div class="form-group">
+                    <label for="hour">Hour:</label>
+                    <input type="number" id="hour" min="1" max="12" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="minute">Minute:</label>
+                    <input type="number" id="minute" min="0" max="59" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="period">AM/PM:</label>
+                    <select id="period" required>
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="duration">Duration (Maximum 150 minutes):</label>
+                <input type="number" id="duration" min="15" required>
+                <p> minutes</p>
+            </div>
+
+            <div class="form-group">
+                <label for="location">Preferred Location:</label>
+                <div class="location-container">
+                    <input type="text" id="location" placeholder="Choose from dog-friendly routes near your location" required>
+                </div>
+            </div>
+            <p class="note location-note">Note: Preferred location can only be chosen from certain standard dog-friendly routes near your location.</p>
+            <div class="bookButton">
+            <a href="booking.html" type="button" onclick="submitBooking()">Book Now</a>
+        </div>
+            </form>
+        </form>
+
+        <div class="console" id="Console">
+            <button id="back-btn" onclick="goBack()">Back</button>
+        </div>
+    </div>
+
+</body>
+</html>

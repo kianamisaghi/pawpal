@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.congrats-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+img {
+    width: 300px; 
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.return-link {
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.return-link:hover {
+    color: #007bff; 
+}

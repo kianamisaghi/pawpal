@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profileInfo.css">
+    <script src="profileInfo.js"></script>
+    <title>Pawpal profile info</title>
+</head>
+<body>
+
+    <div class="info-container">
+        <h1><strong><em>Tell Us More About</em>
+      <br>  Your Woof-tastic Dog! 🐾 </strong></h1>
+
+        <div class="input-section">
+            <h2>Enter Your Dog's Age</h2>
+            <div class="age" >
+                <input type="number" id="Year" min="0" placeholder="Enter Year" oninput="validateNumberInput(this, 0, 20)">
+                <p> Years and </p>
+                <input type="number" id="Month" min="0" max="12" placeholder="Enter Month" oninput="validateNumberInput(this, 0, 12)">
+                <p> Months </p>
+            </div>
+            <br>
+            <h2>Enter Your Dog's Breed</h2>
+            <input type="text" id="dogBreedInput" placeholder="Dog's Breed">
+            <br>
+            <h2>Enter Your Dog's Gender</h2>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+                
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+            </div>
+
+            <h2>Enter Your Dog's Size</h2>
+
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="size" value="small">
+                    Small
+                </label>
+                
+                <label>
+                    <input type="radio" name="size" value="medium">
+                    Medium
+                </label>
+                <label>
+                    <input type="radio" name="size" value="large">
+                    Large
+                </label>
+            </div>
+        </div>
+
+        <button class="back-btn" onclick="goBack()">Back</button>
+        <button class="next-btn" onclick="saveDogInfo()">Next </button>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 PawPal. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy and Cookies</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

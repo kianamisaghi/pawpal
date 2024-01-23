@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #333; 
+}
+
+.my-account-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.signup-section {
+    margin-bottom: 30px;
+    color: #333;
+    
+}
+
+.signup-button {
+    display: inline-block;
+    background-color: #a3d062;
+    color: black;
+    font-size: 20px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: white; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-content a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
